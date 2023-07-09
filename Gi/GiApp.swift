@@ -19,6 +19,7 @@ extension Color {
 
 @main
 struct GiApp: App {
+    
     var body: some Scene {
         WindowGroup {
             TimeView()

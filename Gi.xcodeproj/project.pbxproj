@@ -7,31 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3377C9372A2F3B79007C7971 /* Time_TimeBoxPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C9362A2F3B78007C7971 /* Time_TimeBoxPart.swift */; };
-		3377C9392A2F47DB007C7971 /* Time_TimeDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C9382A2F47DB007C7971 /* Time_TimeDay.swift */; };
-		3377C93B2A2F6D00007C7971 /* Time_TimeDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C93A2A2F6D00007C7971 /* Time_TimeDay1.swift */; };
-		3377C93D2A2F6D06007C7971 /* Time_TimeDay2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C93C2A2F6D06007C7971 /* Time_TimeDay2.swift */; };
-		3377C9B92A31F267007C7971 /* Time_Callender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C9B82A31F267007C7971 /* Time_Callender.swift */; };
+		335B7BBC2A510CF8004E21FF /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BBB2A510CF8004E21FF /* DateValue.swift */; };
+		335B7BBE2A510D0B004E21FF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BBD2A510D0B004E21FF /* Task.swift */; };
+		335B7BC02A510DAF004E21FF /* Time_small1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BBF2A510DAF004E21FF /* Time_small1.swift */; };
+		335B7BC22A510DB7004E21FF /* Time_small2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BC12A510DB7004E21FF /* Time_small2.swift */; };
+		335B7BC42A510E3B004E21FF /* Time_Callender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BC32A510E3B004E21FF /* Time_Callender.swift */; };
+		335B7BE02A55137E004E21FF /* TimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BDF2A55137E004E21FF /* TimeData.swift */; };
+		335B7BE22A552A88004E21FF /* TimeDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BE12A552A88004E21FF /* TimeDataFetcher.swift */; };
+		335B7BFE2A57A522004E21FF /* Setting_Announce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B7BFD2A57A522004E21FF /* Setting_Announce.swift */; };
+		336100692A5961DD00DD6C11 /* Time_HyehwaDay3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336100682A5961DD00DD6C11 /* Time_HyehwaDay3.swift */; };
+		3361006B2A5961EC00DD6C11 /* Time_HyehwaDay4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361006A2A5961EC00DD6C11 /* Time_HyehwaDay4.swift */; };
+		3361006D2A5961FA00DD6C11 /* Time_HyehwaDay5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361006C2A5961FA00DD6C11 /* Time_HyehwaDay5.swift */; };
+		3361006F2A59620000DD6C11 /* Time_HyehwaDay6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361006E2A59620000DD6C11 /* Time_HyehwaDay6.swift */; };
+		336100712A59640700DD6C11 /* Time_Alpha2Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336100702A59640700DD6C11 /* Time_Alpha2Day3.swift */; };
+		336100732A59641000DD6C11 /* Time_Alpha2Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336100722A59641000DD6C11 /* Time_Alpha2Day4.swift */; };
+		336100752A59641F00DD6C11 /* Time_Alpha2Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336100742A59641F00DD6C11 /* Time_Alpha2Day5.swift */; };
+		336100772A59642700DD6C11 /* Time_Alpha2Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336100762A59642700DD6C11 /* Time_Alpha2Day6.swift */; };
+		336100792A59643F00DD6C11 /* Time_Alpha1Day3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336100782A59643F00DD6C11 /* Time_Alpha1Day3.swift */; };
+		3361007B2A59644900DD6C11 /* Time_Alpha1Day4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361007A2A59644900DD6C11 /* Time_Alpha1Day4.swift */; };
+		3361007D2A59644E00DD6C11 /* Time_Alpha1Day5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361007C2A59644E00DD6C11 /* Time_Alpha1Day5.swift */; };
+		3361007F2A59645300DD6C11 /* Time_Alpha1Day6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3361007E2A59645300DD6C11 /* Time_Alpha1Day6.swift */; };
+		3377C9392A2F47DB007C7971 /* Time_HyehwaDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C9382A2F47DB007C7971 /* Time_HyehwaDay.swift */; };
+		3377C93B2A2F6D00007C7971 /* Time_HyehwaDay1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C93A2A2F6D00007C7971 /* Time_HyehwaDay1.swift */; };
+		3377C93D2A2F6D06007C7971 /* Time_HyehwaDay2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C93C2A2F6D06007C7971 /* Time_HyehwaDay2.swift */; };
+		3377C9B92A31F267007C7971 /* Time_ShortCallender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3377C9B82A31F267007C7971 /* Time_ShortCallender.swift */; };
 		337E194B2A35A36600AA75C4 /* Time_info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E194A2A35A36600AA75C4 /* Time_info.swift */; };
 		337E194D2A35A75E00AA75C4 /* Time_number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337E194C2A35A75E00AA75C4 /* Time_number.swift */; };
 		3388E5142A2D534300A03C9B /* GiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388E5132A2D534300A03C9B /* GiApp.swift */; };
 		3388E5162A2D534300A03C9B /* TimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388E5152A2D534300A03C9B /* TimeView.swift */; };
 		3388E5182A2D534500A03C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3388E5172A2D534500A03C9B /* Assets.xcassets */; };
 		3388E51B2A2D534500A03C9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3388E51A2A2D534500A03C9B /* Preview Assets.xcassets */; };
-		3388E5252A2D53E200A03C9B /* Time_TimeLinePart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388E5242A2D53E200A03C9B /* Time_TimeLinePart.swift */; };
-		3388E5272A2D53F300A03C9B /* Time_TimeBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388E5262A2D53F300A03C9B /* Time_TimeBox.swift */; };
-		339FED3F2A40001100F6818B /* small.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339FED3E2A40001100F6818B /* small.swift */; };
+		3388E5272A2D53F300A03C9B /* Time_HyehwaBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3388E5262A2D53F300A03C9B /* Time_HyehwaBox.swift */; };
+		338CFA642A43F0CA0083376D /* TimeLinePart_selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA632A43F0CA0083376D /* TimeLinePart_selection.swift */; };
+		338CFA672A43F1E80083376D /* Time_sellectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA662A43F1E70083376D /* Time_sellectView.swift */; };
+		338CFA6D2A4528750083376D /* Time_Alpha1Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA6C2A4528750083376D /* Time_Alpha1Box.swift */; };
+		338CFA6F2A4528810083376D /* Time_Alpha1Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA6E2A4528810083376D /* Time_Alpha1Day.swift */; };
+		338CFA712A45288F0083376D /* Time_Alpha1Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA702A45288F0083376D /* Time_Alpha1Day1.swift */; };
+		338CFA732A4528940083376D /* Time_Alpha1Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA722A4528940083376D /* Time_Alpha1Day2.swift */; };
+		338CFA752A4528B60083376D /* Time_Alpha2Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA742A4528B60083376D /* Time_Alpha2Box.swift */; };
+		338CFA772A4529670083376D /* Time_Alpha2Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA762A4529670083376D /* Time_Alpha2Day.swift */; };
+		338CFA792A45296F0083376D /* Time_Alpha2Day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA782A45296F0083376D /* Time_Alpha2Day1.swift */; };
+		338CFA7B2A4529780083376D /* Time_Alpha2Day2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338CFA7A2A4529780083376D /* Time_Alpha2Day2.swift */; };
 		33FBFFEF2A343D1B00990704 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFFEE2A343D1B00990704 /* SettingView.swift */; };
 		33FBFFF12A34404400990704 /* Setting_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFFF02A34404400990704 /* Setting_Title.swift */; };
 		33FBFFF32A34420300990704 /* Setting_sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FBFFF22A34420300990704 /* Setting_sub.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3377C9362A2F3B78007C7971 /* Time_TimeBoxPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_TimeBoxPart.swift; sourceTree = "<group>"; };
-		3377C9382A2F47DB007C7971 /* Time_TimeDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_TimeDay.swift; sourceTree = "<group>"; };
-		3377C93A2A2F6D00007C7971 /* Time_TimeDay1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_TimeDay1.swift; sourceTree = "<group>"; };
-		3377C93C2A2F6D06007C7971 /* Time_TimeDay2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_TimeDay2.swift; sourceTree = "<group>"; };
-		3377C9B82A31F267007C7971 /* Time_Callender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Callender.swift; sourceTree = "<group>"; };
+		335B7BBB2A510CF8004E21FF /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		335B7BBD2A510D0B004E21FF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		335B7BBF2A510DAF004E21FF /* Time_small1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_small1.swift; sourceTree = "<group>"; };
+		335B7BC12A510DB7004E21FF /* Time_small2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_small2.swift; sourceTree = "<group>"; };
+		335B7BC32A510E3B004E21FF /* Time_Callender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Callender.swift; sourceTree = "<group>"; };
+		335B7BDF2A55137E004E21FF /* TimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeData.swift; sourceTree = "<group>"; };
+		335B7BE12A552A88004E21FF /* TimeDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDataFetcher.swift; sourceTree = "<group>"; };
+		335B7BFD2A57A522004E21FF /* Setting_Announce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_Announce.swift; sourceTree = "<group>"; };
+		336100682A5961DD00DD6C11 /* Time_HyehwaDay3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay3.swift; sourceTree = "<group>"; };
+		3361006A2A5961EC00DD6C11 /* Time_HyehwaDay4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay4.swift; sourceTree = "<group>"; };
+		3361006C2A5961FA00DD6C11 /* Time_HyehwaDay5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay5.swift; sourceTree = "<group>"; };
+		3361006E2A59620000DD6C11 /* Time_HyehwaDay6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay6.swift; sourceTree = "<group>"; };
+		336100702A59640700DD6C11 /* Time_Alpha2Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day3.swift; sourceTree = "<group>"; };
+		336100722A59641000DD6C11 /* Time_Alpha2Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day4.swift; sourceTree = "<group>"; };
+		336100742A59641F00DD6C11 /* Time_Alpha2Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day5.swift; sourceTree = "<group>"; };
+		336100762A59642700DD6C11 /* Time_Alpha2Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day6.swift; sourceTree = "<group>"; };
+		336100782A59643F00DD6C11 /* Time_Alpha1Day3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day3.swift; sourceTree = "<group>"; };
+		3361007A2A59644900DD6C11 /* Time_Alpha1Day4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day4.swift; sourceTree = "<group>"; };
+		3361007C2A59644E00DD6C11 /* Time_Alpha1Day5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day5.swift; sourceTree = "<group>"; };
+		3361007E2A59645300DD6C11 /* Time_Alpha1Day6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day6.swift; sourceTree = "<group>"; };
+		3377C9382A2F47DB007C7971 /* Time_HyehwaDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay.swift; sourceTree = "<group>"; };
+		3377C93A2A2F6D00007C7971 /* Time_HyehwaDay1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay1.swift; sourceTree = "<group>"; };
+		3377C93C2A2F6D06007C7971 /* Time_HyehwaDay2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaDay2.swift; sourceTree = "<group>"; };
+		3377C9B82A31F267007C7971 /* Time_ShortCallender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ShortCallender.swift; sourceTree = "<group>"; };
 		337E194A2A35A36600AA75C4 /* Time_info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_info.swift; sourceTree = "<group>"; };
 		337E194C2A35A75E00AA75C4 /* Time_number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_number.swift; sourceTree = "<group>"; };
 		3388E5102A2D534300A03C9B /* Gi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,9 +85,17 @@
 		3388E5152A2D534300A03C9B /* TimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeView.swift; sourceTree = "<group>"; };
 		3388E5172A2D534500A03C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3388E51A2A2D534500A03C9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3388E5242A2D53E200A03C9B /* Time_TimeLinePart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_TimeLinePart.swift; sourceTree = "<group>"; };
-		3388E5262A2D53F300A03C9B /* Time_TimeBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_TimeBox.swift; sourceTree = "<group>"; };
-		339FED3E2A40001100F6818B /* small.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = small.swift; sourceTree = "<group>"; };
+		3388E5262A2D53F300A03C9B /* Time_HyehwaBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_HyehwaBox.swift; sourceTree = "<group>"; };
+		338CFA632A43F0CA0083376D /* TimeLinePart_selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLinePart_selection.swift; sourceTree = "<group>"; };
+		338CFA662A43F1E70083376D /* Time_sellectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_sellectView.swift; sourceTree = "<group>"; };
+		338CFA6C2A4528750083376D /* Time_Alpha1Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Box.swift; sourceTree = "<group>"; };
+		338CFA6E2A4528810083376D /* Time_Alpha1Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day.swift; sourceTree = "<group>"; };
+		338CFA702A45288F0083376D /* Time_Alpha1Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day1.swift; sourceTree = "<group>"; };
+		338CFA722A4528940083376D /* Time_Alpha1Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha1Day2.swift; sourceTree = "<group>"; };
+		338CFA742A4528B60083376D /* Time_Alpha2Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Box.swift; sourceTree = "<group>"; };
+		338CFA762A4529670083376D /* Time_Alpha2Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day.swift; sourceTree = "<group>"; };
+		338CFA782A45296F0083376D /* Time_Alpha2Day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day1.swift; sourceTree = "<group>"; };
+		338CFA7A2A4529780083376D /* Time_Alpha2Day2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Alpha2Day2.swift; sourceTree = "<group>"; };
 		33FBFFEE2A343D1B00990704 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		33FBFFF02A34404400990704 /* Setting_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_Title.swift; sourceTree = "<group>"; };
 		33FBFFF22A34420300990704 /* Setting_sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting_sub.swift; sourceTree = "<group>"; };
@@ -58,6 +112,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		335B7BB92A510CD8004E21FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				335B7BBB2A510CF8004E21FF /* DateValue.swift */,
+				335B7BBD2A510D0B004E21FF /* Task.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		335B7BBA2A510CE0004E21FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				335B7BC32A510E3B004E21FF /* Time_Callender.swift */,
+				3377C9B82A31F267007C7971 /* Time_ShortCallender.swift */,
+				337E194C2A35A75E00AA75C4 /* Time_number.swift */,
+				335B7BBF2A510DAF004E21FF /* Time_small1.swift */,
+				335B7BC12A510DB7004E21FF /* Time_small2.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		3388E5072A2D534300A03C9B = {
 			isa = PBXGroup;
 			children = (
@@ -80,8 +155,8 @@
 				3388E5132A2D534300A03C9B /* GiApp.swift */,
 				3388E5152A2D534300A03C9B /* TimeView.swift */,
 				33FBFFEE2A343D1B00990704 /* SettingView.swift */,
-				3388E5212A2D538300A03C9B /* Time */,
 				33FBFFED2A343CF300990704 /* Setting */,
+				3388E5212A2D538300A03C9B /* Time */,
 				3388E5172A2D534500A03C9B /* Assets.xcassets */,
 				3388E5192A2D534500A03C9B /* Preview Content */,
 			);
@@ -100,17 +175,70 @@
 			isa = PBXGroup;
 			children = (
 				337E194A2A35A36600AA75C4 /* Time_info.swift */,
-				339FED3E2A40001100F6818B /* small.swift */,
-				3377C9362A2F3B78007C7971 /* Time_TimeBoxPart.swift */,
-				3388E5262A2D53F300A03C9B /* Time_TimeBox.swift */,
-				3377C9382A2F47DB007C7971 /* Time_TimeDay.swift */,
-				3377C93A2A2F6D00007C7971 /* Time_TimeDay1.swift */,
-				3377C93C2A2F6D06007C7971 /* Time_TimeDay2.swift */,
-				3388E5242A2D53E200A03C9B /* Time_TimeLinePart.swift */,
-				3377C9B82A31F267007C7971 /* Time_Callender.swift */,
-				337E194C2A35A75E00AA75C4 /* Time_number.swift */,
+				338CFA662A43F1E70083376D /* Time_sellectView.swift */,
+				338CFA632A43F0CA0083376D /* TimeLinePart_selection.swift */,
+				335B7BDF2A55137E004E21FF /* TimeData.swift */,
+				335B7BE12A552A88004E21FF /* TimeDataFetcher.swift */,
+				338CFA682A45264C0083376D /* Hyehwa */,
+				338CFA6A2A4526870083376D /* Alpha1 */,
+				338CFA6B2A45268B0083376D /* Alpha2 */,
+				338CFA652A43F0D90083376D /* Callender */,
 			);
 			path = Time;
+			sourceTree = "<group>";
+		};
+		338CFA652A43F0D90083376D /* Callender */ = {
+			isa = PBXGroup;
+			children = (
+				335B7BB92A510CD8004E21FF /* Model */,
+				335B7BBA2A510CE0004E21FF /* View */,
+			);
+			path = Callender;
+			sourceTree = "<group>";
+		};
+		338CFA682A45264C0083376D /* Hyehwa */ = {
+			isa = PBXGroup;
+			children = (
+				3388E5262A2D53F300A03C9B /* Time_HyehwaBox.swift */,
+				3377C9382A2F47DB007C7971 /* Time_HyehwaDay.swift */,
+				3377C93A2A2F6D00007C7971 /* Time_HyehwaDay1.swift */,
+				3377C93C2A2F6D06007C7971 /* Time_HyehwaDay2.swift */,
+				336100682A5961DD00DD6C11 /* Time_HyehwaDay3.swift */,
+				3361006A2A5961EC00DD6C11 /* Time_HyehwaDay4.swift */,
+				3361006C2A5961FA00DD6C11 /* Time_HyehwaDay5.swift */,
+				3361006E2A59620000DD6C11 /* Time_HyehwaDay6.swift */,
+			);
+			path = Hyehwa;
+			sourceTree = "<group>";
+		};
+		338CFA6A2A4526870083376D /* Alpha1 */ = {
+			isa = PBXGroup;
+			children = (
+				338CFA6C2A4528750083376D /* Time_Alpha1Box.swift */,
+				338CFA6E2A4528810083376D /* Time_Alpha1Day.swift */,
+				338CFA702A45288F0083376D /* Time_Alpha1Day1.swift */,
+				338CFA722A4528940083376D /* Time_Alpha1Day2.swift */,
+				336100782A59643F00DD6C11 /* Time_Alpha1Day3.swift */,
+				3361007A2A59644900DD6C11 /* Time_Alpha1Day4.swift */,
+				3361007C2A59644E00DD6C11 /* Time_Alpha1Day5.swift */,
+				3361007E2A59645300DD6C11 /* Time_Alpha1Day6.swift */,
+			);
+			path = Alpha1;
+			sourceTree = "<group>";
+		};
+		338CFA6B2A45268B0083376D /* Alpha2 */ = {
+			isa = PBXGroup;
+			children = (
+				338CFA742A4528B60083376D /* Time_Alpha2Box.swift */,
+				338CFA762A4529670083376D /* Time_Alpha2Day.swift */,
+				338CFA782A45296F0083376D /* Time_Alpha2Day1.swift */,
+				338CFA7A2A4529780083376D /* Time_Alpha2Day2.swift */,
+				336100702A59640700DD6C11 /* Time_Alpha2Day3.swift */,
+				336100722A59641000DD6C11 /* Time_Alpha2Day4.swift */,
+				336100742A59641F00DD6C11 /* Time_Alpha2Day5.swift */,
+				336100762A59642700DD6C11 /* Time_Alpha2Day6.swift */,
+			);
+			path = Alpha2;
 			sourceTree = "<group>";
 		};
 		33FBFFED2A343CF300990704 /* Setting */ = {
@@ -118,6 +246,7 @@
 			children = (
 				33FBFFF02A34404400990704 /* Setting_Title.swift */,
 				33FBFFF22A34420300990704 /* Setting_sub.swift */,
+				335B7BFD2A57A522004E21FF /* Setting_Announce.swift */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
@@ -192,21 +321,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339FED3F2A40001100F6818B /* small.swift in Sources */,
-				3377C9B92A31F267007C7971 /* Time_Callender.swift in Sources */,
-				3377C9392A2F47DB007C7971 /* Time_TimeDay.swift in Sources */,
+				3377C9B92A31F267007C7971 /* Time_ShortCallender.swift in Sources */,
+				335B7BFE2A57A522004E21FF /* Setting_Announce.swift in Sources */,
+				338CFA792A45296F0083376D /* Time_Alpha2Day1.swift in Sources */,
+				3377C9392A2F47DB007C7971 /* Time_HyehwaDay.swift in Sources */,
 				3388E5162A2D534300A03C9B /* TimeView.swift in Sources */,
-				3388E5272A2D53F300A03C9B /* Time_TimeBox.swift in Sources */,
+				3388E5272A2D53F300A03C9B /* Time_HyehwaBox.swift in Sources */,
+				336100692A5961DD00DD6C11 /* Time_HyehwaDay3.swift in Sources */,
 				337E194D2A35A75E00AA75C4 /* Time_number.swift in Sources */,
+				335B7BE22A552A88004E21FF /* TimeDataFetcher.swift in Sources */,
+				338CFA642A43F0CA0083376D /* TimeLinePart_selection.swift in Sources */,
+				3361006F2A59620000DD6C11 /* Time_HyehwaDay6.swift in Sources */,
+				338CFA672A43F1E80083376D /* Time_sellectView.swift in Sources */,
+				336100712A59640700DD6C11 /* Time_Alpha2Day3.swift in Sources */,
+				336100792A59643F00DD6C11 /* Time_Alpha1Day3.swift in Sources */,
+				338CFA752A4528B60083376D /* Time_Alpha2Box.swift in Sources */,
+				3361007B2A59644900DD6C11 /* Time_Alpha1Day4.swift in Sources */,
+				336100772A59642700DD6C11 /* Time_Alpha2Day6.swift in Sources */,
 				33FBFFF12A34404400990704 /* Setting_Title.swift in Sources */,
+				338CFA6F2A4528810083376D /* Time_Alpha1Day.swift in Sources */,
+				335B7BC42A510E3B004E21FF /* Time_Callender.swift in Sources */,
+				3361006D2A5961FA00DD6C11 /* Time_HyehwaDay5.swift in Sources */,
 				3388E5142A2D534300A03C9B /* GiApp.swift in Sources */,
-				3377C93D2A2F6D06007C7971 /* Time_TimeDay2.swift in Sources */,
+				335B7BBE2A510D0B004E21FF /* Task.swift in Sources */,
+				3377C93D2A2F6D06007C7971 /* Time_HyehwaDay2.swift in Sources */,
 				337E194B2A35A36600AA75C4 /* Time_info.swift in Sources */,
-				3388E5252A2D53E200A03C9B /* Time_TimeLinePart.swift in Sources */,
+				338CFA7B2A4529780083376D /* Time_Alpha2Day2.swift in Sources */,
+				338CFA732A4528940083376D /* Time_Alpha1Day2.swift in Sources */,
+				335B7BE02A55137E004E21FF /* TimeData.swift in Sources */,
+				3361006B2A5961EC00DD6C11 /* Time_HyehwaDay4.swift in Sources */,
+				3361007F2A59645300DD6C11 /* Time_Alpha1Day6.swift in Sources */,
+				335B7BC02A510DAF004E21FF /* Time_small1.swift in Sources */,
 				33FBFFF32A34420300990704 /* Setting_sub.swift in Sources */,
-				3377C93B2A2F6D00007C7971 /* Time_TimeDay1.swift in Sources */,
+				3377C93B2A2F6D00007C7971 /* Time_HyehwaDay1.swift in Sources */,
+				338CFA712A45288F0083376D /* Time_Alpha1Day1.swift in Sources */,
+				338CFA6D2A4528750083376D /* Time_Alpha1Box.swift in Sources */,
+				3361007D2A59644E00DD6C11 /* Time_Alpha1Day5.swift in Sources */,
+				335B7BBC2A510CF8004E21FF /* DateValue.swift in Sources */,
+				336100752A59641F00DD6C11 /* Time_Alpha2Day5.swift in Sources */,
+				336100732A59641000DD6C11 /* Time_Alpha2Day4.swift in Sources */,
+				338CFA772A4529670083376D /* Time_Alpha2Day.swift in Sources */,
+				335B7BC22A510DB7004E21FF /* Time_small2.swift in Sources */,
 				33FBFFEF2A343D1B00990704 /* SettingView.swift in Sources */,
-				3377C9372A2F3B79007C7971 /* Time_TimeBoxPart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

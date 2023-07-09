@@ -8,42 +8,40 @@
 import SwiftUI
 
 struct Time_info: View {
-    
     @State private var isSettingViewActive = false
     
     var body: some View {
-        
-        
-        HStack {
-            Spacer()
-                .frame(width: 3)
-
-            Image("gigi")
-                .resizable()
-                .frame(width: 102, height: 29)
-                .padding(.leading, 27)
-
-            Spacer()
-                .frame(width: 204)
-            NavigationLink {
-                SettingView()
-            } label: {
-                Image("set")
+        NavigationView {
+            VStack {
+                // 내용을 추가하거나 수정할 수 있습니다.
             }
-            Spacer()
-                .frame(width: 11.3)
-
-            Button {
-
-            } label: {
-                Image("alram")
-
-                Spacer()
-                    .frame(width: 25)
-            }
-
+            .navigationBarItems(
+                leading: HStack(spacing: 15) {
+                    Image("GI 8")
+                        .resizable()
+                        .frame(width: 29, height: 29)
+                    
+                    Image("GI 7")
+                        .resizable()
+                        .frame(width: 58, height: 18)
+                }
+                .padding(.leading, 27),
+                
+                trailing: HStack(spacing: 22) {
+                    NavigationLink(destination: SettingView()) {
+                        Image("set")
+                            .resizable()
+                            .frame(width: 23, height: 23)
+                    }
+                    
+                    NavigationLink(destination: SettingView()) {
+                        Image("alram")
+                            .resizable()
+                            .frame(width: 22, height: 23)
+                    }
+                }
+            )
         }
-
     }
 }
 
@@ -52,3 +50,4 @@ struct Time_info_Previews: PreviewProvider {
         Time_info()
     }
 }
+
